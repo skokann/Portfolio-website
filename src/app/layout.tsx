@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${fira_Code.className} bg-[#0A0E1B] text-slate-100 mx-auto p-4 `}>{children}</body>
+      <body className={`${fira_Code.className} bg-[#0A0E1B] text-slate-100 mx-auto p-2 `}>{children}</body>
     </html>
   );
 }
