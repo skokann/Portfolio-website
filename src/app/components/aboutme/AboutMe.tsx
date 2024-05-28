@@ -3,7 +3,7 @@
 const AboutMe = () => {
   return (
     <div className="text-slate-100 h-auto justify-center w-full flex flex-col max-w-7xl my-28 gap-3 px-4">
-      <div className="flex text-xl font-bold gap-5">
+      <div className="flex text-xl font-bold mb-5 gap-5">
         <p className="text-4xl text-[#B388FF]">01.</p>
         <h1 className="text-4xl">O mně</h1>
       </div>

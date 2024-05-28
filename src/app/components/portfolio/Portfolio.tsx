@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from 'next/image';
 export default function Portfolio() {
   return (
     <div className="text-slate-100 h-auto justify-center w-full flex flex-col max-w-7xl my-16 gap-3 px-4">
@@ -7,19 +7,21 @@ export default function Portfolio() {
         <p className="text-4xl text-[#B388FF]">02.</p>
         <h1 className="text-4xl">Má práce</h1>
       </div>
-      <div className="lg:flex justify-between lg:gap-40">
+      <div className="lg:flex justify-between lg:gap-40 mb-5">
         <div className="flex-1">
           <p className="text-lg">
-            Tady je pár projektů, na kterých jsem pracoval.
+            Zde je několik projektů, na které jsem hrdý. Prozkoumejte mé nejlepší výtvory.
+
+
           </p>
         </div>
       </div>
-      <div className="grid  grid-cols-1 md:grid-cols-2 gap-3">
-        <div className="w-full rounded-md h-96 bg-gray-50"></div>
-        <div className="w-full rounded-md   h-96 bg-gray-50">g</div>
-        <div className="w-full  rounded-md   h-96 bg-gray-50"></div>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+  <div className="w-full rounded-lg h-96 p-2 bg-[#19213b]">
+    <Image src="/autoskola.jpg" alt="portfolio" width={600} height={500} className="rounded-lg h-72 object-cover w-full" />
+  </div>
+</div>
 
-      </div>
     </div>
   );
 }
