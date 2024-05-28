@@ -18,6 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+                <link rel="shortcut icon" href="/icon.ico" />
       <body className={`${fira_Code.className} bg-[#0A0E1B] text-slate-100 mx-auto p-2 `}>{children}</body>
     </html>
   );

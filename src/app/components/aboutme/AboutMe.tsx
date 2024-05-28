@@ -15,40 +15,40 @@ const AboutMe = () => {
             a spravuji počítačové sítě.
           </p>
         </div>
-        <div className="flex-1 ">
+        <div className="flex-1">
           <h2 className="py-5 lg:py-0 lg:pb-4 font-bold text-xl">Některé technologie, se kterými pracuji:</h2>
           <div className="grid grid-cols-2 gap-4 lg:flex lg:flex-wrap">
-            <ul className="space-y-2 lg:flex-1">
-              <li className="flex items-center">
-                <span className="text-[#B388FF] mr-2">•</span> TypeScript
+            <ul className="space-y-2 lg:flex-1 ">
+              <li className="flex items-center transform transition-transform duration-200 hover:scale-105 ">
+                <span className="text-[#B388FF] mr-2 ">•</span> TypeScript
               </li>
-              <li className="flex items-center">
+              <li className="flex items-center transform transition-transform duration-200 hover:scale-105">
                 <span className="text-[#B388FF] mr-2">•</span> HTML5 &amp; CSS3
               </li>
-              <li className="flex items-center">
+              <li className="flex items-center transform transition-transform duration-200 hover:scale-105">
                 <span className="text-[#B388FF] mr-2">•</span> NextJS
               </li>
-              <li className="flex items-center">
+              <li className="flex items-center transform transition-transform duration-200 hover:scale-105">
                 <span className="text-[#B388FF] mr-2">•</span> JavaScript
               </li>
-              <li className="flex items-center">
+              <li className="flex items-center transform transition-transform duration-200 hover:scale-105">
                 <span className="text-[#B388FF] mr-2">•</span> TailwindCSS
               </li>
             </ul>
             <ul className="space-y-2 lg:flex-1">
-              <li className="flex items-center">
+              <li className="flex items-center transform transition-transform duration-200 hover:scale-105">
                 <span className="text-[#B388FF] mr-2">•</span> WordPress
               </li>
-              <li className="flex items-center">
+              <li className="flex items-center transform transition-transform duration-200 hover:scale-105">
                 <span className="text-[#B388FF] mr-2">•</span> Bootstrap
               </li>
-              <li className="flex items-center">
+              <li className="flex items-center transform transition-transform duration-200 hover:scale-105">
                 <span className="text-[#B388FF] mr-2">•</span> Figma
               </li>
-              <li className="flex items-center">
+              <li className="flex items-center transform transition-transform duration-200 hover:scale-105">
                 <span className="text-[#B388FF] mr-2">•</span> Sanity.io
               </li>
-              <li className="flex items-center">
+              <li className="flex items-center transform transition-transform duration-200 hover:scale-105">
                 <span className="text-[#B388FF] mr-2">•</span> Vercel
               </li>
             </ul>

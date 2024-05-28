@@ -30,7 +30,7 @@ const HamburgerIcon = () => {
       {isOpen && (
         <div className="absolute top-0 right-0 w-full h-screen bg-[#0A0E1B] flex flex-col items-center justify-center z-50">
           <Link href="/" className="p-4 text-white" onClick={toggleMenu}>Úvod</Link>
-          <Link href="/portfolio" className="p-4 text-white" onClick={toggleMenu}>Portfolio</Link>
+          <Link href="/portfolio" className="p-4 text-white" onClick={toggleMenu}>Má práce</Link>
           <Link href="/blog" className="p-4 text-white" onClick={toggleMenu}>Blog</Link>
           <Link href="/kontakt" className="p-4 text-white" onClick={toggleMenu}>Kontakt</Link>
           <span className="p-4 text-white">zubryckyj@icloud.com</span>

@@ -6,3 +6,24 @@
   background-color: #B388FF; /* Light purple/lavender background color */
   color: #ffffff; /* White text color */
 }
+
+/* WebKit-based browsers */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1e293b; /* Background color of the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #B388FF; /* Color of the scrollbar handle */
+  border-radius: 6px;       /* Roundness of the handle */
+  border: 3px solid #1e293b; /* Padding around the handle */
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #B388FF #1e293b;
+}
