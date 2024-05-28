@@ -1,9 +1,11 @@
 import React from 'react'
 
-export default function page() {
+function secret() {
   return (
     <div>
-      hello
+      <h1>hello</h1>
     </div>
   )
 }
+
+export default secret

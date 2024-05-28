@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'next/image';
+import Link from 'next/link'
 
 export default function Footer() {
 
@@ -16,7 +16,7 @@ export default function Footer() {
         <span className="text-yellow-500 ">v1.0.0</span>
       </div>
       <div className="text-gray-500 font-mono">
-        LAST UPDATED 28_05_2024
+        <Link className='text-gray-500 font-mono' href="/secret">LAST UPDATED 28_05_2024</Link>
       </div>
     </div>
     </main>
