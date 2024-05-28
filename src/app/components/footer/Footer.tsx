@@ -5,11 +5,8 @@ export default function Footer() {
 
     
   return (
-    <main className='py-2 flex flex-row-reverse gap-10 '>
+    <main className='py-2 flex text-[7px] md:text-sm flex-row-reverse gap-10 '>
          <div className=' flex justify-center  items-center relative'>
-      <div className='flex gap-2 ml-auto'>
-        <Image src="/logo.svg" alt="footer" width="25" height="25" />
-      </div>
       <p className='px-4 text-center'>
         Built by <span className='font-black'>JIRI</span> with <span className="animate-pulse">❤️</span> in CZECHIA
       </p>
