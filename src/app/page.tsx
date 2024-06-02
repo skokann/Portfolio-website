@@ -4,6 +4,8 @@ import Hero from "./components/hero/Hero";
 import AboutMe from "./components/aboutme/AboutMe";
 import Portfolio from "./components/portfolio/Portfolio";
 import Footer from "./components/footer/Footer";
+import InviteCard from "./components/invite/Invite";
+
 
 export default function Home() {
   return (
@@ -12,6 +14,7 @@ export default function Home() {
        <Hero />
        <AboutMe />
        <Portfolio />
+       <InviteCard />
        <Footer />
     </main>
   );

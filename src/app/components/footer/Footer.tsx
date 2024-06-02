@@ -16,7 +16,7 @@ export default function Footer() {
         <span className="text-yellow-500 ">v1.0.0</span>
       </div>
       <div className="text-gray-500 font-mono">
-        <Link className='text-gray-500 font-mono' href="/secret">LAST UPDATED 28_05_2024</Link>
+        <p className='text-gray-500 font-mono'>LAST UPDATED 02_06_2024</p>
       </div>
     </div>
     </main>
