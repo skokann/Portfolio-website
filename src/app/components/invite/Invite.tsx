@@ -19,13 +19,14 @@ const InviteCard = () => {
   };
 
   return (
-    <div className=" text-white  py-5 rounded-lg flex items-center ">
+    <div className=" text-white  py-5 rounded-lg flex text-left items-center ">
       <div className="flex-shrink-0"></div>
       <div>
         <h2 className="text-2xl font-bold">Vytvořme něco dalšího!</h2>
         <p className="mt-2">Potřebujete nové webové stránky?</p>
         <p className="mt-4">
           <span className="font-bold">Napište mi </span>
+          <span></span>
           <span
             className="hover:text-purple-400 transition-colors duration-700 transform cursor-pointer"
             onClick={copyToClipboard}
